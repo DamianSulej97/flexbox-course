@@ -34,6 +34,10 @@ nav a:hover{
     background: #555;
 }
 
+a.tw{
+    background-image: url(img/tw.png) no-repeat center;
+}
+
 @media screen and (min-width: 768px){
 
     nav ul{
@@ -44,4 +48,10 @@ nav a:hover{
     nav li{
         flex: 1 1 0;
     }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
